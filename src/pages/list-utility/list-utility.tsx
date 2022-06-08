@@ -1,4 +1,4 @@
-import { Alert, Button, Checkbox, FormControlLabel, Grid, IconButton, InputAdornment, OutlinedInput, Snackbar, TextField, Typography } from "@mui/material"
+import { Alert, Button, Checkbox, FormControlLabel, FormHelperText, Grid, IconButton, InputAdornment, OutlinedInput, Snackbar, TextField, Typography } from "@mui/material"
 import React, { useState } from "react"
 import toLower from 'lodash/toLower';
 import startCase from 'lodash/startCase';
@@ -16,7 +16,7 @@ export const ListUtilityPage = () => {
     const [cleanupPrefix, setCleanupPrefix] = useState<string>('');
     const [cleanupSuffix, setCleanupSuffix] = useState<string>('');
     const [convertCase, setConvertCase] = useState<string | null>(null);
-    const [showSnackbar, setShowSnackbar] = useState<boolean>(true);
+    const [showSnackbar, setShowSnackbar] = useState<boolean>(false);
 
     const handleChange = (event: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>, component: string): void => {
         const value = event.target.value;
@@ -41,7 +41,7 @@ export const ListUtilityPage = () => {
         }
     }
 
-    const handleSubmit = () => {
+    const handleConvert = () => {
         const inputListArray = inputList.split('\n').map((val) => {
             const removedPrefix = cleanupPrefix ? val.split(cleanupPrefix)[1]?.trim() : val.trim();
             const removedSuffix = cleanupSuffix ? removedPrefix.split(cleanupSuffix)[0]?.trim() : removedPrefix;
@@ -132,6 +132,11 @@ export const ListUtilityPage = () => {
         </Grid>
         <Grid container item flexDirection="column" spacing={1}>
             <Grid container item flexDirection="column" sm={12} xs={12}>
+                <FormHelperText>
+                    <Typography variant="body2" whiteSpace="pre-wrap">
+                        Please clean up the list before converting it.
+                    </Typography>
+                </FormHelperText>
                 <FormControlLabel
                     label="Cleanup list"
                     control={<Checkbox checked={isCleanupListEnabled} onChange={() => handleCheckList('cleanup')} />}
@@ -140,7 +145,7 @@ export const ListUtilityPage = () => {
                     <Grid item flex={1}>
                         <TextField
                             disabled={!isCleanupListEnabled}
-                            label="Prefix"
+                            label="Remove Prefix"
                             placeholder="Eg. 1)"
                             value={cleanupPrefix}
                             onChange={(e) => handleChange(e, 'cleanup-prefix')}
@@ -149,7 +154,7 @@ export const ListUtilityPage = () => {
                     <Grid item flex={1}>
                         <TextField
                             disabled={!isCleanupListEnabled}
-                            label="Suffix"
+                            label="Remove Suffix"
                             placeholder="Eg. 's"
                             value={cleanupSuffix}
                             onChange={(e) => handleChange(e, 'cleanup-suffix')}
@@ -228,8 +233,8 @@ export const ListUtilityPage = () => {
             <Button
                 variant="contained"
                 sx={{ float: "right", marginRight: 2 }}
-                onClick={handleSubmit}>
-                Submit
+                onClick={handleConvert}>
+                Convert
             </Button>
         </Grid>
         <Grid item>
