@@ -1,9 +1,9 @@
 import React from 'react';
-import { ListUtilityPage } from './pages/list-utility/list-utility';
+import { AppRouter } from './routers/app/app.router';
 
 function App() {
   return (
-    <ListUtilityPage />
+    <AppRouter />
   );
 }
 

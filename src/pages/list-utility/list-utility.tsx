@@ -1,3 +1,5 @@
 export const ListUtilityPage = () => {
-    return <>Welcome</>
+    return <>
+        Welcome
+    </>
 }
