@@ -1,6 +1,6 @@
 export const AppRoute = {
-    BASE: "/",
-    LIST: "/list",
+    BASE: "/list-utility",
+    LIST: "/list-utility/list",
 }
 
 export const getBasePath = (): string => {
