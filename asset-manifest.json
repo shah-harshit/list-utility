@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/list-utility/static/js/main.ca4e9552.js",
+    "main.js": "/list-utility/static/js/main.71b32a9d.js",
     "list-utility-router.js": "/list-utility/static/js/list-utility-router.772ce354.chunk.js",
     "static/js/787.96f533b1.chunk.js": "/list-utility/static/js/787.96f533b1.chunk.js",
     "list-utility-page.js": "/list-utility/static/js/list-utility-page.db194b4a.chunk.js",
     "page-not-found-page.js": "/list-utility/static/js/page-not-found-page.3a1852bf.chunk.js",
     "index.html": "/list-utility/index.html",
-    "main.ca4e9552.js.map": "/list-utility/static/js/main.ca4e9552.js.map",
+    "main.71b32a9d.js.map": "/list-utility/static/js/main.71b32a9d.js.map",
     "list-utility-router.772ce354.chunk.js.map": "/list-utility/static/js/list-utility-router.772ce354.chunk.js.map",
     "787.96f533b1.chunk.js.map": "/list-utility/static/js/787.96f533b1.chunk.js.map",
     "list-utility-page.db194b4a.chunk.js.map": "/list-utility/static/js/list-utility-page.db194b4a.chunk.js.map",
     "page-not-found-page.3a1852bf.chunk.js.map": "/list-utility/static/js/page-not-found-page.3a1852bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ca4e9552.js"
+    "static/js/main.71b32a9d.js"
   ]
 }
