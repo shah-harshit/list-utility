@@ -1,6 +1,6 @@
 # List-utility
 
-Perform utility operations on a list.
+Users can perform utility operations on a list. This project is hosted at https://shah-harshit.github.io/list-utility/
 
 # Getting Started with Create React App
 
