@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/list-utility-page.db194b4a.chunk.js","mappings":"kLAAaA,EAAkB,WAC3B,OAAO","sources":["pages/list-utility/list-utility.tsx"],"sourcesContent":["export const ListUtilityPage = () => {\n    return <>\n        Welcome\n    </>\n}"],"names":["ListUtilityPage"],"sourceRoot":""}

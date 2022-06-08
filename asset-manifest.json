@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.js": "/list-utility/static/js/main.38a5da61.js",
-    "list-utility-router.js": "/list-utility/static/js/list-utility-router.772ce354.chunk.js",
+    "main.js": "/list-utility/static/js/main.0f0f381b.js",
+    "list-utility-router.js": "/list-utility/static/js/list-utility-router.f27136ca.chunk.js",
     "static/js/787.96f533b1.chunk.js": "/list-utility/static/js/787.96f533b1.chunk.js",
-    "list-utility-page.js": "/list-utility/static/js/list-utility-page.db194b4a.chunk.js",
-    "page-not-found-page.js": "/list-utility/static/js/page-not-found-page.3a1852bf.chunk.js",
+    "list-utility-page.js": "/list-utility/static/js/list-utility-page.fd15adc1.chunk.js",
+    "page-not-found-page.js": "/list-utility/static/js/page-not-found-page.443153b2.chunk.js",
+    "static/js/519.e9e8249a.chunk.js": "/list-utility/static/js/519.e9e8249a.chunk.js",
     "index.html": "/list-utility/index.html",
-    "main.38a5da61.js.map": "/list-utility/static/js/main.38a5da61.js.map",
-    "list-utility-router.772ce354.chunk.js.map": "/list-utility/static/js/list-utility-router.772ce354.chunk.js.map",
+    "main.0f0f381b.js.map": "/list-utility/static/js/main.0f0f381b.js.map",
+    "list-utility-router.f27136ca.chunk.js.map": "/list-utility/static/js/list-utility-router.f27136ca.chunk.js.map",
     "787.96f533b1.chunk.js.map": "/list-utility/static/js/787.96f533b1.chunk.js.map",
-    "list-utility-page.db194b4a.chunk.js.map": "/list-utility/static/js/list-utility-page.db194b4a.chunk.js.map",
-    "page-not-found-page.3a1852bf.chunk.js.map": "/list-utility/static/js/page-not-found-page.3a1852bf.chunk.js.map"
+    "list-utility-page.fd15adc1.chunk.js.map": "/list-utility/static/js/list-utility-page.fd15adc1.chunk.js.map",
+    "page-not-found-page.443153b2.chunk.js.map": "/list-utility/static/js/page-not-found-page.443153b2.chunk.js.map",
+    "519.e9e8249a.chunk.js.map": "/list-utility/static/js/519.e9e8249a.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.38a5da61.js"
+    "static/js/main.0f0f381b.js"
   ]
 }

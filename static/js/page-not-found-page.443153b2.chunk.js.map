@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/page-not-found-page.443153b2.chunk.js","mappings":"gLAAaA,EAAe,WACxB,OAAO","sources":["pages/page-not-found/page-not-found.tsx"],"sourcesContent":["export const PageNotFound = () => {\n    return <>PageNotFound</>\n}"],"names":["PageNotFound"],"sourceRoot":""}
